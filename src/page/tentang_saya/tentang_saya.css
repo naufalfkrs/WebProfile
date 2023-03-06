@@ -1,0 +1,102 @@
+.container-ts{
+    width: 80%;
+    height: 1125px;
+    margin: 0 auto;
+    margin-top: 125px;
+    /* box-sizing: border-box;
+    border: 1px solid #ccc; */
+}
+
+.judul-ts{
+    width: 100%;
+    height: 75px;
+    margin: 0 auto;
+    /* box-sizing: border-box;
+    border: 1px solid yellow;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-ts{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+    /* box-sizing: border-box;
+    border: 1px solid red; */
+    display: flex;
+}
+
+.judul-skill{
+    width: 100%;
+    height: 75px;
+    margin: 0 auto;
+    margin-top: 160px;
+    text-align: center;
+    /* box-sizing: border-box;
+    border: 1px solid yellow;  */
+}
+
+.skill{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    /* box-sizing: border-box;
+    border: 1px solid blue; */
+    padding: 0 200px;
+}
+
+.gambar-ts{
+    width: 40%;
+    height: 100%;
+    /* box-sizing: border-box;
+    border: 1px solid blue; */
+    display: flex;
+    position: relative;
+    z-index: -1;
+}
+
+.text-ts{
+    width: 60%;
+    height: 100%;
+    /* box-sizing: border-box;
+    border: 1px solid chartreuse; */
+    padding: 45px 45px;
+}
+
+.judul-ts h3{
+    font-size: 30px;
+    color: #10f5cb;
+}
+
+.judul-skill h3{
+    font-size: 30px;
+    color: #10f5cb;
+}
+
+.gambar-ts img{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-ts table {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+  
+.text-ts th {
+    text-align: left;
+    padding: 8px;
+    color: #f5fefd;
+}
+
+.text-ts td {
+    padding: 8px;
+    color: #f5fefd;
+}

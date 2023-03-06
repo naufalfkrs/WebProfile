@@ -1,0 +1,72 @@
+.container-beranda{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 150px;
+    /* box-sizing: border-box;
+    border: 1px solid #ccc; */
+}
+
+.home-beranda{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    /* box-sizing: border-box;
+    border: 1px solid red; */
+    display: flex;
+}
+
+.text-beranda{
+    width: 50%;
+    height: 100%;
+    /* box-sizing: border-box;
+    border: 1px solid chartreuse; */
+    padding: 140px 45px;
+    
+}
+
+.gambar-beranda{
+    width: 50%;
+    height: 100%;
+    /* box-sizing: border-box;
+    border: 1px solid blue; */
+    display: flex;
+    position: relative;
+    z-index: -1;
+}
+
+.medsos{
+    /* width: 100%; */
+    /* height: 15%; */
+    margin: 0 auto;
+    margin-top: 25px;
+    /* box-sizing: border-box;
+    border: 1px solid green; */
+    display: flex;
+    column-gap: 40px;
+    /* text-align: center; */
+}
+
+.text-beranda h3 {
+    font-size: 25px;
+    color: #f5fefd;
+}
+
+.text-beranda h1 {
+    font-size: 45px;
+    color: #f5fefd;
+}
+
+.text-beranda p {
+    font-size: 30px;
+    color: #10f5cb82;
+}
+
+.gambar-beranda img{
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}  
